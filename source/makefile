@@ -1,14 +1,22 @@
+# envs
 MAKEOBJ = makeobj_60-5
 DIR = ../pak/
-
 PAK = pak
+
+# fence
+FENCE_POS := FB # LR F B L R
+
 
 all: $(DIR)/building.YIC-railstop-platform-1_Diagonal(Angle).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Side).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Side-D).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Angle-D).pak \
-	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Angle-Fence-FB).pak \
-	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Side-Fence).pak \
+	$(foreach v,$(FENCE_VARIANTS), \
+	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-Fence-$(v)\).pak),\
+	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Side-Fence).pak
+
+
+
 
 
 $(DIR)/building.YIC-railstop-platform-1_Diagonal(Side).pak  : YIC_platform-1_Diagonal-Side.dat YIC_platform-1_Diagonal-Side.png platform-1.png
