@@ -12,7 +12,7 @@ all: $(DIR)/building.YIC-railstop-platform-1_Diagonal(Angle).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Side-D).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Angle-D).pak \
 	$(foreach v,$(FENCE_VARIANTS), \
-	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-Fence-$(v)\).pak),\
+	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-Fence-$(v)\).pak)\
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal(Side-Fence).pak
 
 
