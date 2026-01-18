@@ -21,7 +21,6 @@ FENCE_ANGLE_PAKS := \
 all: $(BASE_PAKS) $(FENCE_ANGLE_PAKS)
 
 # make rules
-
 $(DIR)/building.YIC-railstop-platform-1_Diagonal\(Side\).pak  : YIC_platform-1_Diagonal-Side.dat YIC_platform-1_Diagonal-Side.png platform-1.png
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-Side.dat
 
