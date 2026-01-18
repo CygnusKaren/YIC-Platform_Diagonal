@@ -4,7 +4,7 @@ DIR = ../pak/
 PAK = pak
 
 # fence
-FENCE_POS := FB  LR FL RB
+FENCE_POS := FB  FR LB LR RB FL
 
 #pak
 BASE_PAKS := \
