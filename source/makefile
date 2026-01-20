@@ -12,6 +12,7 @@ BASE_PAKS := \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Side\).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Side-D\).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-D\).pak \
+	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-Cross\).pak \
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Side-Fence\).pak\
 	$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Side-Fence-D\).pak
 
@@ -32,6 +33,9 @@ $(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle\).pak : YIC_platform-1_D
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-Angle.dat
 
 $(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-D\).pak : YIC_platform-1_Diagonal-Angle_D.dat YIC_platform-1_Diagonal-Angle.png platform-1.png
+	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-Angle_D.dat
+
+$(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-Cross\).pak : YIC_platform-1_Diagonal-Angle_Cross.dat YIC_platform-1_Diagonal-Angle-Cross.png platform-1u.png
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-Angle_D.dat
 
 $(DIR)/building.YIC-railstop-platform-1_Diagonal\(Angle-Fence-%\).pak : \
