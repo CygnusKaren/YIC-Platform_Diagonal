@@ -1,3 +1,5 @@
 pak/
 .env
 source/*.pak
+*.zip
+slantscale.xcf
