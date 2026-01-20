@@ -3,3 +3,4 @@ pak/
 source/*.pak
 *.zip
 slantscale.xcf
+*.datt
