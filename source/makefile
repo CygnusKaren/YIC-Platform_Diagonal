@@ -26,7 +26,7 @@ all: $(BASE_PAKS) $(FENCE_ANGLE_PAKS)
 $(DIR)building.YIC-railstop-platform-1_Diagonal\(Side\).pak  : YIC_platform-1_Diagonal-Side.dat YIC_platform-1_Diagonal-Side.png platform-1.png
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-Side.dat
 
-$(DIR)building.YIC-railstop-platform-1_Diagonal\(Side-D\).pak  : YIC_platform-1_Diagonal-Side.dat YIC_platform-1_Diagonal-Side.png platform-1.png
+$(DIR)building.YIC-railstop-platform-1_Diagonal\(Side-D\).pak  : YIC_platform-1_Diagonal-Side_D.dat YIC_platform-1_Diagonal-Side.png platform-1.png
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-Side_D.dat
 
 $(DIR)building.YIC-railstop-platform-1_Diagonal\(Angle\).pak : YIC_platform-1_Diagonal-Angle.dat YIC_platform-1_Diagonal-Angle.png platform-1.png
@@ -47,7 +47,7 @@ $(DIR)building.YIC-railstop-platform-1_Diagonal\(Angle-Fence-%\).pak : \
 $(DIR)building.YIC-railstop-platform-1_Diagonal\(Side-Fence\).pak : YIC_platform-1_Diagonal-SideFence.dat YIC_platform-1_Diagonal-SideFence.png platform-1s.png
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-SideFence.dat
 
-$(DIR)building.YIC-railstop-platform-1_Diagonal\(Side-Fence-D\).pak : YIC_platform-1_Diagonal-SideFence.dat YIC_platform-1_Diagonal-SideFence.png platform-1s.png
+$(DIR)building.YIC-railstop-platform-1_Diagonal\(Side-Fence-D\).pak : YIC_platform-1_Diagonal-SideFence-D.dat YIC_platform-1_Diagonal-SideFence.png platform-1s.png
 	$(MAKEOBJ) $(PAK) $(DIR) YIC_platform-1_Diagonal-SideFence-D.dat 
 
 .PHONY: pre-release
