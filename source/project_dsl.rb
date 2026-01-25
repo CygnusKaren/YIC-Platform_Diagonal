@@ -51,5 +51,14 @@ def build_project
       dat "YIC_platform-1_Diagonal-SideFence-D.dat"
       png "YIC_platform-1_Diagonal-SideFence.png"
     end
+
+    pos = ["FB", "FR", "LB", "LR", "RB", "FL"]
+
+    pakEach pos,prefix:"Angle-Fence" do |pos|
+      type "building"
+      pak "building.YIC-railstop-platform-1_Diagonal(Angle-Fence-#{pos}).pak"
+	  dat "YIC_platform-1_Diagonal-Angle_Fence-#{pos}.dat"
+	  png "YIC_platform-1_Diagonal-Angle_Fence-#{pos}.png", "platform-1s.png"
+    end
   end
 end
