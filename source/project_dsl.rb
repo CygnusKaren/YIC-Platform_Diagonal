@@ -39,11 +39,11 @@ module Gungnir_DSL
         png "YIC_platform-1_Diagonal-Angle_Cross_L-RB.png"
       end
 
-      pakName "YIC-railstop-platform-1_Diagonal(Angle-Cross_R-LF)" do
+      pakName "YIC-railstop-platform-1_Diagonal(Angle-Cross_L-RF)" do
         type "building"
-        pak "building.YIC-railstop-platform-1_Diagonal(Angle-Cross_R-LF).pak"
-        dat "YIC_platform-1_Diagonal-Angle_Cross_R-LF.dat"
-        png "YIC_platform-1_Diagonal-Angle_Cross_R-LF.png"
+        pak "building.YIC-railstop-platform-1_Diagonal(Angle-Cross_L-RF).pak"
+        dat "YIC_platform-1_Diagonal-Angle_Cross_L-RF.dat"
+        png "YIC_platform-1_Diagonal-Angle_Cross_L-RF.png"
       end
 
       pakName "YIC-railstop-platform-1_Diagonal(Side-Fence)" do
