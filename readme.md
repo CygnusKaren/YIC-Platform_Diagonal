@@ -20,6 +20,10 @@ pak128/pak128japan向けに公開されているTake様の「【OTRP v33_1以降
 ## ライセンスについて
 pak.nipponのreadme.txtから以下の内容を根拠として当アドオン本体並びに構成物(dat,png)に付随ファイル(readme.md,ja.diagonal.tab)についてはMITライセンスを適応します。
 
+## ビルドについて
+拙作のビルドツールを用いています
+→[[https://github.com/CygnusKaren/Gungnir]]
+
 > その他のファイルについて
 > waが作成したアドオンについては、MITライセンスに従います。
 
