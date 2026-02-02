@@ -37,7 +37,7 @@ BackImage[18][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.0.2
 BackImage[19][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.0.3
 BackImage[20][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.1.0
 BackImage[21][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.1.1
-BackImage[22][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.1.2
+BackImage[22,31][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RB.1.2
 BackImage[23][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.1.3
 
 FrontImage[24][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.2.0
@@ -47,7 +47,7 @@ FrontImage[27][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.2.3
 FrontImage[28][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.3.0
 FrontImage[29][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.3.1
 FrontImage[30][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.3.2
-FrontImage[31][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.3.3
+# FrontImage[31][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.3.3
 
 BackImage[32][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.4.0
 BackImage[33][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.4.1
@@ -56,7 +56,7 @@ BackImage[35][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.4.3
 BackImage[36][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.5.0
 BackImage[37][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.5.1
 BackImage[38][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.5.2
-BackImage[39][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.5.3
+BackImage[39,46][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RB.5.3
 
 FrontImage[40][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.6.0
 FrontImage[41][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.6.1
@@ -64,7 +64,7 @@ FrontImage[42][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.6.2
 FrontImage[43][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.6.3
 FrontImage[44][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.7.0
 FrontImage[45][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.7.1
-FrontImage[46][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.7.2
+# FrontImage[46][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.7.2
 FrontImage[47][0][0][0][0][0]=YIC_platform-1_Diagonal-Angle_Cross_L-RF.7.3
 
 backImage[0][0][0][0][0][1]=platform-1-winter.0.0
